@@ -21,7 +21,7 @@ CHConstructor // code block that runs immediately upon load
                 void *addr = dlopen([libraryPath UTF8String], RTLD_NOW);
                 if (addr) {
                     [[NSNotificationCenter defaultCenter] postNotificationName:@"IBARevealRequestStart" object:nil];
-                    NSLog(@"Reveal2Loader loaded %@successed and address %p", libraryPath,addr);
+                    NSLog(@"Reveal2Loader loaded %@ successed and address %p", libraryPath,addr);
                 } else {
                     NSLog(@"Reveal2Loader loaded %@ failed and address %p", libraryPath,addr);
                 }
