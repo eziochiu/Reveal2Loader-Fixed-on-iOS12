@@ -1,6 +1,6 @@
 Package: reveal2loader
-Name: Reveal2loader for iOS 12
-Version: 1.2
+Name: RevealLoader fixed for iOS13
+Version: 1.3
 Description: dynamically loads Reveal into applications and plugins.
 Section: System
 Depends: firmware (>= 8.0), mobilesubstrate, applist, preferenceloader, com.zidaneno5.ExtensionList
